@@ -50,7 +50,9 @@ class UserController {
 		req: Request,
 		res: Response,
 		next: NextFunction
-	) => {};
+	) => {
+		const test = req.body;
+	};
 
 	public deleteUser = async (
 		req: Request,
