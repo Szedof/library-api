@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"sourceMap": true,
+		"outDir": "build",
+		"rootDir": "src",
+		"allowSyntheticDefaultImports": true,
+		"strict": true,
+		"target": "es6",
+		"lib": ["esnext"],
+		"moduleResolution": "Node",
+		"esModuleInterop": true,
+		"resolveJsonModule": true,
+		"module": "CommonJS",
+		"baseUrl": "src",
+		"paths": {
+			"@config": ["config"],
+			"@interfaces/*": ["interfaces/*"],
+			"@routes/*": ["routes/*"],
+			"@utils/*": ["utils/*"],
+			"@services/*": ["services/*"],
+			"@middleware/*": ["middleware/*"],
+			"@controllers/*": ["controllers/*"]
+		}
+	}
+}
